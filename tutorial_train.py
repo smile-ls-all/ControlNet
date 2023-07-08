@@ -17,8 +17,8 @@ from cldm.model import create_model, load_state_dict
 
 # Configs
 if __name__ == "__main__":
-    resume_path = './models/control_sd15_ini.ckpt'
-    batch_size = 4
+    resume_path = './models/control_sd15_ini_4.ckpt'
+    batch_size = 2
     logger_freq = 300
     learning_rate = 1e-5
     sd_locked = True
