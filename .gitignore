@@ -3,7 +3,7 @@
 training/
 lightning_logs/
 image_log/
-
+*.bin
 *.pth
 *.pt
 *.ckpt
